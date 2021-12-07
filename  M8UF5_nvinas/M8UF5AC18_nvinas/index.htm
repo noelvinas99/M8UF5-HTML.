@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calcutredora</title>
+        <link rel="shortcut icon" href="/home/smx2b/Escriptori/ M8UF5_nvinas/M8UF5AC18_nvinas/img/calculadoralogo.png">
+    </head>
+    <body style="background-color: aquamarine; color: green;">
+        <TABLE BOARDER align="center">
+            <TR>
+                <td><h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: ghostwhite;">CALCUTREDORA</h2></td>
+            </TR>
+        </TABLE>
+        <TABLE BOARDER align="center">
+            <tr>
+                <td><input type="textfield" name="ans" value=""></td>
+            </tr>
+        </TABLE>
+        <p></p>
+        <TABLE BORDER align="center">
+            <tr>
+                <td><input type="button" value="1" onClick="document.calculadora.ans.value+='1'"></td>
+                <td><input type="button" value="2" onClick="document.calculadora.ans.value+='2'"></td>
+                <td><input type="button" value="3" onClick="document.calculadora.ans.value+='3'"></td>
+                <td><input type="button" value="+" onClick="document.calculadora.ans.value+='+'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onClick="document.calculadora.ans.value+='4'"></td>
+                <td><input type="button" value="5" onClick="document.calculadora.ans.value+='5'"></td>
+                <td><input type="button" value="6" onClick="document.calculadora.ans.value+='6'"></td>
+                <td><input type="button" value="-" onClick="document.calculadora.ans.value+='-'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onClick="document.calculadora.ans.value+='7'"></td>
+                <td><input type="button" value="8" onClick="document.calculadora.ans.value+='8'"></td>
+                <td><input type="button" value="9" onClick="document.calculadora.ans.value+='9'"></td>
+                <td><input type="button" value="*" onClick="document.calculadora.ans.value+='*'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onClick="document.calculadora.ans.value+='0'"></td>
+                <td><input type="reset" value="c"></td>
+                <td><input type="button" value="/" onClick="document.calculadora.ans.value+='/'"></td>
+                <td><input type="button" value="=" onClick="document.calculadora.ans.value=eval(document.calculadora.ans.value)"></td>
+            </TR>
+        </TABLE>
+    </body>
+</html>
